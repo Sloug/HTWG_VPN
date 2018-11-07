@@ -14,7 +14,9 @@ Maybe you realized that you cannot access any internal HTWG-Service, or that Nam
 This Problem occours when the .ovpn-File is launched and tries to update the /etc/resolv.conf. It is neccessary to do some changes to this file, because we need a new DNS-Server enty if we are using the HTWG-VPN and if we would like to connect to any HTWG-Service (like accessing your container to do your required tasks for BSYS or SYSO). In the next step, we will clearify how you can get the HTWG-DNS-Server running in your VPN-Environment.
 
 The Solution:
-
+...
+(finalizing this document soon...)
+...
 
 
 
