@@ -5,15 +5,15 @@ If you are using a Linux-System to access the VPN, you may run into some trouble
 
 First of all, it depends on the Distribution you are using. We have tested Arch- and Debian-based Systems (Ubuntu is based on Debian, just in case you dont know ;-)).
 
-General explanation:
+## General explanation:
 First of all, you have to download the .ovpn-File from the [HTWG Webpage](https://www.htwg-konstanz.de/en/rz/dienste/vpn-verbindung/). If this is done, you have to run this File with openvpn. You have two possibillities to achieve this: either you choose the graphical Linux-native tools to add your OpenVPN-File (in the Network Connections settings), but we would recommend you to choose the terminal, because we will explain it that way.
 Everything else you have to do, is to start the OVPN-Script. Launch a terminal and type openvpn <path to .ovpn-file>. You will be prompted to enter your HTWG-Username and Password. Eveything should be working fine now. IF NOT: CONTINUE READING!
   
-The Problem:
+## The Problem:
 Maybe you realized that you cannot access any internal HTWG-Service, or that Name Resolution in General is not working properly. (Name Resolution descibes the process of getting the IP-Address that is behind a Domain-Name like htwg-konstanz.de)
 This Problem occours when the .ovpn-File is launched and tries to update the /etc/resolv.conf. It is neccessary to do some changes to this file, because we need a new DNS-Server enty if we are using the HTWG-VPN and if we would like to connect to any HTWG-Service (like accessing your container to do your required tasks for BSYS or SYSO). In the next step, we will clearify how you can get the HTWG-DNS-Server running in your VPN-Environment.
 
-The Solution:
+## The Solution:
 ...
 (finalizing this document soon...)
 ...
