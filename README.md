@@ -1,7 +1,6 @@
 # VPN-Konfiguration der HTWG Konstanz
 
-This is an additional explanation to [this](https://www.htwg-konstanz.de/en/rz/dienste/vpn-verbindung/)
-If you are using a Linux-System to access the VPN, you may run into some trouble. This Guide will help you to find your way through everything that is neccessary to successfully connect to the VPN.
+This is an additional explanation to [this](https://www.htwg-konstanz.de/en/rz/dienste/vpn-verbindung/). If you are using a Linux-System to access the VPN, you may run into some trouble. This Guide will help you to find your way through everything that is neccessary to successfully connect to the VPN.
 
 First of all, it depends on the Distribution you are using. We have tested Arch- and Debian-based Systems (Ubuntu is based on Debian, just in case you dont know ;-)).
 
